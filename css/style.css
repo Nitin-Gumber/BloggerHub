@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Start Navigation  */
+.navigation {
+    font-family: var(--font2);
+    height: 3.5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Navigation left settings */
+.nav-left {
+    font-size: 1.6rem;
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+    margin: 13px 1rem;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left ul li {
+    list-style: none;
+    padding: 0 1rem;
+    font-family: var(--font1);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Nav left ending */
+/* Ending Navigation */
+
+/* Content Area Start */
+.content {
+    display: flex;
+    height: 17.5rem;
+    margin-top: 3.2rem;
+    padding: 0.9rem;
+}
+
+
+/* Start Content left area */
+.content-left {
+    display: flex;
+    font-family: var(--font1);
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.1rem;
+}
+
+.content-left p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family: var(--font3);
+}
+
+/* End Content left area */
+
+/* Start Content Right area  */
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 15rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+/* End content left area */
+
+/* Articles area */
+.home-articles {
+    margin-top: 0.5rem;
+    padding: 1.8rem;
+    background-color: rgb(253, 232, 232);
+}
+
+.home-article {
+    display: flex;
+    margin: 0.8rem;
+}
+
+.home-article img {
+    width: 19rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+.home-article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+/* Ending Articles area  */
+
+/* Start footer */
+.footer {
+    height: 3.4rem;
+    background-color: rgb(200, 210, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(24, 42, 78);
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.footer a {
+    color: rgb(24, 42, 78);
+    text-decoration: none;
+    margin-top: 0.2rem;
+}
+
+/* Ending Footer */
